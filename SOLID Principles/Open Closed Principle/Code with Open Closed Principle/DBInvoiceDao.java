@@ -1,6 +1,6 @@
 class DBInvoiceDao implements InvoiceDao{
   Invoice invoice;
-  public InvoiceDao(Invoice UpdatedInvoice)
+  public DBInvoiceDao(Invoice UpdatedInvoice)
   {
     this.invoice=  UpdatedInvoice;
   }
